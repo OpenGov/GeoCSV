@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+
+"features": [
+{ "type": "Feature", "properties": { "STATION": "SE Martin Luther King & Morrison", "TYPE": "SC", "LINE": "AL", "STATUS": "Existing" }, "geometry": { "type": "Point", "coordinates": [ -122.661933824998059, 45.516937208047516 ] } },
+{ "type": "Feature", "properties": { "STATION": "Kings Hill\/SW Salmon St", "TYPE": "MAX", "LINE": "BR", "STATUS": "Existing" }, "geometry": { "type": "Point", "coordinates": [ -122.691150053366243, 45.520408998167525 ] } },
+{ "type": "Feature", "properties": { "STATION": "Interstate\/Rose Quarter", "TYPE": "MAX", "LINE": "Y", "STATUS": "Existing" }, "geometry": { "type": "Point", "coordinates": [ -122.667837214106612, 45.530186544611531 ] } }
+]
+}

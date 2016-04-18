@@ -1,0 +1,36 @@
+{
+  "name": "geocsv",
+  "description": "GeoJSON to CSV module",
+  "version": "1.0.0",
+  "author": "Jerry Sievert <code@legitimatesounding.com>",
+  "bugs": {
+    "url": "https://github.com/OpenGov/geocsv/issues"
+  },
+  "devDependencies": {
+    "semistandard": "*",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/OpenGov/geocsv",
+  "keywords": [
+    "csv",
+    "geojson",
+    "json",
+    "stream"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenGov/geocsv.git"
+  },
+  "scripts": {
+    "test": "semistandard && tape test/*.js | tap-spec"
+  },
+  "dependencies": {
+    "JSONStream": "^1.1.1",
+    "event-stream": "^3.3.2",
+    "object-to-csv-stream": "0.0.2",
+    "terraformer-wkt-parser": "^1.1.0"
+  }
+}
